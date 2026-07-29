@@ -37,7 +37,7 @@
 
 ## 📖 Table of Contents
 
-[The Story](#-the-story--قصّة-المنتج) · [Product Principles](#-product-principles--مبادئ-المنتج) · [Features](#-key-features--أبرز-المزايا) · [Preview](#-platform-preview--جولة-داخل-المنصّة) · [Architecture](#️-architecture--معمارية-النظام) · [Learning Algorithm](#-the-learning-algorithm--الخوارزمية-التعليمية) · [Tech Stack](#️-tech-stack--engineering-notes) · [Impact](#-impact--results--الأثر-والنتائج) · [Roadmap](#-roadmap) · [Live Links](#-live-platform)
+[The Story](#-the-story--قصّة-المنتج) · [Product Principles](#-product-principles--مبادئ-المنتج) · [Features](#-key-features--أبرز-المزايا) · [Preview](#-platform-preview--جولة-داخل-المنصّة) · [Inside the App](#-inside-the-app--جولة-حقيقية-داخل-التطبيق) · [Architecture](#️-architecture--معمارية-النظام) · [Learning Algorithm](#-the-learning-algorithm--الخوارزمية-التعليمية) · [Tech Stack](#️-tech-stack--engineering-notes) · [Impact](#-impact--results--الأثر-والنتائج) · [Roadmap](#-roadmap) · [Live Links](#-live-platform)
 
 ---
 
@@ -123,6 +123,88 @@ The result is not another flashcard app — it is a **measurable learning system
 ![About Sini Al-Khafif](screenshots/about.jpg)
 
 <sub>Original preview kept for reference: <code>screenshots/landing_page.webp</code></sub>
+
+---
+
+## 🔐 Inside the App | جولة حقيقية داخل التطبيق
+
+> Real screenshots captured from a **live authenticated session** on `sinialkhafifapp.com` — actual product UI, actual learner data, no mockups.
+> لقطات حقيقية من **جلسة مستخدم فعلية** داخل المنصّة — واجهات المنتج الحقيقية وبيانات متعلّم فعلية، بدون تصاميم وهمية.
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="screenshots/live/01-dashboard.jpg" alt="Sini Al-Khafif learner dashboard in Arabic with XP, HSK roadmap and word of the day" width="100%" /><br/>
+      <b>🏠 Learner Dashboard</b><br/><sub>XP · daily goal · HSK 1–6 roadmap · goal-based recommendations</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshots/live/02-learning-path.jpg" alt="HSK 1 learning path with 35 lessons and unit progression" width="100%" /><br/>
+      <b>🧭 Learning Path</b><br/><sub>HSK 1 → HSK 6 · 35 lessons per level · unit-by-unit unlocking</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshots/live/03-practice-hub.jpg" alt="Practice hub with daily challenge, smart review and character writing" width="100%" /><br/>
+      <b>🎮 Practice Hub</b><br/><sub>30-second smart recall · daily challenge ×3 XP · handwriting drills</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/live/07-lesson-preview.jpg" alt="Lesson preview screen showing 15 words, 54 exercises and XP reward" width="100%" /><br/>
+      <b>📋 Lesson Preview</b><br/><sub>15 words · 54 exercises · ~9 min · +35 XP</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/live/08-new-word-card.jpg" alt="New Chinese word card with hanzi, pinyin and Arabic meaning" width="100%" /><br/>
+      <b>🀄 New Word Card</b><br/><sub>Hanzi + pinyin + Arabic meaning + native audio</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/live/09-quiz-choice.jpg" alt="Multiple choice translation exercise Chinese to Arabic" width="100%" /><br/>
+      <b>✅ Translation Quiz</b><br/><sub>Distractors sampled from the learner's own weak set</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/live/11-listening-exercise.jpg" alt="Listening exercise choose the correct Chinese character" width="100%" /><br/>
+      <b>🎧 Listening Drill</b><br/><sub>Audio-first recall · replay counter feeds the difficulty model</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/live/10-correct-feedback.jpg" alt="Instant feedback with XP reward after a correct answer" width="100%" /><br/>
+      <b>⚡ Instant Feedback</b><br/><sub>Correct / incorrect state · +2 XP · streak & accuracy update</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/live/05-profile-stats.jpg" alt="Learner profile with XP, streak, accuracy, badges and achievements" width="100%" /><br/>
+      <b>📊 Profile & Analytics</b><br/><sub>XP · streak · words learned · accuracy · lessons · badges</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/live/06-leaderboard.jpg" alt="Leaderboard ranking learners by XP" width="100%" /><br/>
+      <b>🏆 Leaderboard</b><br/><sub>Competitive XP ranking to drive retention</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/live/04-premium-plans.jpg" alt="Premium subscription plans monthly and yearly" width="100%" /><br/>
+      <b>💎 Premium Plans</b><br/><sub>Monthly / yearly tiers · unlimited hearts · full HSK access</sub>
+    </td>
+    <td align="center" valign="middle">
+      <b>🧾 Onboarding</b><br/>
+      <sub>5-step personalization: username → country → learning goal → current level → tailored path.<br/>
+      خمس خطوات تخصيص تُغذّي محرك التوصية قبل أول درس.</sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>🔎 What these screens prove — ماذا تثبت هذه الشاشات</b></summary>
+
+| Capability | Evidence in the screenshots |
+|---|---|
+| Full RTL Arabic-first product | Every screen is natively right-to-left, not a mirrored LTR layout |
+| Personalization engine | Dashboard recommendations change with the goal chosen at onboarding (`السفر`) |
+| Real exercise engine | 54 generated exercises per lesson across 3 exercise types (word card, translation MCQ, listening MCQ) |
+| Adaptive difficulty signals | Answer correctness, replay counts and response state are tracked per item |
+| Gamification loop | XP, hearts, streaks, daily goal, badges and leaderboard are wired end-to-end |
+| Monetization | Working premium tiering with feature gating |
+
+</details>
+
 
 ---
 
