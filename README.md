@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="صيني عالخفيف — منصة عربية لتعلّم اللغة الصينية" width="100%" />
+  <img src="assets/brand/app-icon.svg" alt="شعار صيني عالخفيف" width="88" />
 </p>
 
 <h1 align="center">🇨🇳 صيني عالخفيف | Sini Al-Khafif</h1>
@@ -61,33 +61,35 @@
 
 تشرح [صفحة المنهجية](https://sinialkhafifapp.com/methodology) أن إكمال الدرس وحده لا يثبت إتقانًا دائمًا، وأن بعض مؤشرات المهارات قد لا تتوفر لها بيانات كافية في البداية.
 
-## الدليل الحي والمواد المرئية
+## الشعار ولقطات الواجهات الحالية
 
-الموقع الحي هو المرجع الأحدث لتجربة المستخدم والميزات المتاحة. الصور التالية محفوظة في المستودع لأغراض العرض، وقد تعكس إصدارًا أقدم من الواجهة أو المنهج؛ لا تستخدمها كمرجع وحيد للتغطية الحالية.
+أُخذت أصول الهوية التالية من الموقع الحي، مع الاحتفاظ بالأيقونة المتجهية ونسخ PNG المستخدمة كأيقونات للمتصفح والأجهزة:
 
-### الصفحة الرئيسية والتجربة
+<p align="center">
+  <img src="assets/brand/app-icon.svg" alt="الشعار الرسمي لصيني عالخفيف" width="96" />
+</p>
 
-![معاينة الصفحة الرئيسية لصيني عالخفيف](screenshots/home.jpg)
+- SVG: [`assets/brand/app-icon.svg`](assets/brand/app-icon.svg) و[`assets/brand/favicon.svg`](assets/brand/favicon.svg)
+- PNG: [`favicon.png`](assets/brand/favicon.png)، [`icon-192.png`](assets/brand/icon-192.png)، و[`apple-touch-icon.png`](assets/brand/apple-touch-icon.png)
 
-![معاينة درس تفاعلي](screenshots/demo.jpg)
+الصور التالية لقطات مباشرة من الصفحات العامة وقت تحديث المستودع. اضغط على أي صورة لفتح نسختها كاملة الدقة. قد تتغير الصفحات الحية بعد تاريخ الالتقاط.
 
-### القاموس والمنهج
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="screenshots/current/home.png"><img src="screenshots/current/preview-home.png" alt="الصفحة الرئيسية الحالية" width="100%" /></a><br/><b>الصفحة الرئيسية</b></td>
+    <td width="50%" align="center"><a href="screenshots/current/curriculum.png"><img src="screenshots/current/preview-curriculum.png" alt="دليل مستويات HSK الحالي" width="100%" /></a><br/><b>دليل HSK</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="screenshots/current/dictionary.png"><img src="screenshots/current/preview-dictionary.png" alt="القاموس الصيني العربي الحالي" width="100%" /></a><br/><b>القاموس الصيني–العربي</b></td>
+    <td width="50%" align="center"><a href="screenshots/current/methodology.png"><img src="screenshots/current/preview-methodology.png" alt="صفحة المنهجية الحالية" width="100%" /></a><br/><b>المنهجية</b></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="screenshots/current/auth.png"><img src="screenshots/current/preview-auth-login.png" alt="واجهة تسجيل الدخول الحالية" width="100%" /></a><br/><b>تسجيل الدخول</b></td>
+    <td width="50%" align="center"><a href="screenshots/current/signup.png"><img src="screenshots/current/preview-auth-signup.png" alt="واجهة إنشاء حساب جديدة الحالية" width="100%" /></a><br/><b>إنشاء حساب</b></td>
+  </tr>
+</table>
 
-![معاينة القاموس الصيني العربي](screenshots/dictionary.jpg)
-
-![معاينة دليل مستويات HSK](screenshots/hsk.jpg)
-
-![معاينة صفحة HSK 1](screenshots/hsk1.jpg)
-
-### المنهجية وصفحات المشروع
-
-![معاينة صفحة المنهجية](screenshots/methodology.jpg)
-
-![معاينة صفحة التعريف بالمشروع](screenshots/about.jpg)
-
-### لقطات من واجهات التطبيق
-
-تتضمن الصور المحفوظة في [`screenshots/live/`](screenshots/live/) أمثلة للوحة المتعلم ومسار التعلّم والتمارين والملف الشخصي. وهي لقطات توضيحية محفوظة في هذا المستودع، وليست اختبارًا حديثًا لكل وظيفة أو ضمانًا بأن الواجهة المطابقة ما زالت متاحة بالحالة نفسها.
+وتشمل اللقطات الكاملة الإضافية صفحات [HSK 1](screenshots/current/hsk-1.png)، [عن المنصة](screenshots/current/about.png)، و[التواصل](screenshots/current/contact.png). أما الصور القديمة في [`screenshots/`](screenshots/) و[`screenshots/live/`](screenshots/live/) فهي أرشيف مرئي من إصدارات سابقة؛ راجع الموقع الحي للتصميم الأحدث.
 
 ## ملاحظات الدقة والخصوصية
 
@@ -101,8 +103,12 @@
 ```text
 .
 ├── README.md
-├── assets/       # صور تعريفية للمشروع
-└── screenshots/  # لقطات للصفحات وتجربة المنتج
+├── assets/
+│   ├── brand/       # شعار وأيقونات مأخوذة من الموقع الحي
+│   └── ...          # مواد تعريفية سابقة
+└── screenshots/
+    ├── current/     # لقطات حديثة لصفحات الموقع
+    └── ...          # لقطات أرشيفية من إصدارات سابقة
 ```
 
 هذا المستودع **ليس نسخة قابلة لبناء تطبيق الويب**؛ فهو لا يحتوي ملفات الواجهة أو الخادم أو إعدادات قاعدة البيانات. إذا كنت تبحث عن استخدام المنصة، فابدأ من الموقع الحي. وإذا كنت تبحث عن المساهمة في كود التطبيق، فاطلب الوصول إلى مستودع الشيفرة المناسب.
@@ -116,6 +122,7 @@
 | القاموس الصيني–العربي | [sinialkhafifapp.com/dictionary](https://sinialkhafifapp.com/dictionary) |
 | المنهج | [sinialkhafifapp.com/hsk](https://sinialkhafifapp.com/hsk) |
 | صفحة HSK 1 | [sinialkhafifapp.com/hsk/1](https://sinialkhafifapp.com/hsk/1) |
+| تسجيل الدخول / إنشاء حساب | [sinialkhafifapp.com/auth](https://sinialkhafifapp.com/auth) |
 | معلومات المشروع | [sinialkhafifapp.com/about](https://sinialkhafifapp.com/about) |
 | التواصل | [sinialkhafifapp.com/contact](https://sinialkhafifapp.com/contact) |
 | GitHub | [majid-alsakani/sini-alkhafif-app](https://github.com/majid-alsakani/sini-alkhafif-app) |
