@@ -3,8 +3,8 @@
 </p>
 
 <h1 align="center">🇨🇳 صيني عالخفيف | Sini Al-Khafif</h1>
-<h3 align="center">منصّة عربية لتعلّم اللغة الصينية وفق مسار HSK</h3>
-<p align="center"><i>خطوة بخطوة، من أول كلمة.</i></p>
+<h3 align="center">تعلّم الصينية للناطقين بالعربية عبر مسار HSK 1–9</h3>
+<p align="center"><i>دروس قصيرة، مفردات في سياق، ومراجعة خطوة بخطوة.</i></p>
 
 <p align="center">
   <a href="https://sinialkhafifapp.com"><img src="https://img.shields.io/badge/الموقع-تجربة_حية-7A0C10?style=for-the-badge&logo=googlechrome&logoColor=white" alt="الموقع الحي" /></a>
@@ -137,7 +137,7 @@
 
 ## المطوّر
 
-**ماجد السكني | Majid Al-Sakani**
+**تطوير وإشراف: ماجد السكني | Majid Al-Sakani**
 [GitHub](https://github.com/majid-alsakani) · [صيني عالخفيف](https://sinialkhafifapp.com)
 
 ---
